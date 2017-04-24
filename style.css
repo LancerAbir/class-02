@@ -1,0 +1,132 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    font-family: 'Grand Hotel', cursive;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.quote_form_wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+section.section_padding {
+    padding: 80px 0;
+}
+.blue_form_box {
+    background-color: #19b5fe;
+    margin-top: -83px;
+    max-width: 770px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.blue_form_box h3 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+.blue_form_box h3::before {
+    background-color: #fff;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -65px;
+    position: absolute;
+    width: 130px;
+}
+.blue_form_box h3::after {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: -6.5px;
+    content: "";
+    height: 13px;
+    left: 50%;
+    margin-left: -6.5px;
+    position: absolute;
+    width: 13px;
+}
+blue_form_box form action {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+.blue_form_box input, .blue_form_box textarea{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+
+.blue_form_box input:focus {
+    outline: 0;
+    border: none;
+}
+
+.blue_form_box input, .blue_form_box textarea {
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+    padding: 10px 10px 10px 0;
+    width: 100%;
+}
+.blue_form_box input, .blue_form_box textarea:focus{
+
+}
+
+.blue_form_box textarea {
+    height: 100px;
+}
+.quote_submit_button {
+    font-size: 15px;
+    margin: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+.quote_submit_button button {
+    padding: 5px 20px;
+    color: #19b5fe;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #777;
+    transition: .5s;
+    
+}
+
+.quote_submit_button button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
